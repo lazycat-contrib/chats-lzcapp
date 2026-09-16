@@ -6,11 +6,10 @@ application:
   upstreams:
     - location: /
       backend: http://chats:8080/
-
 services:
   chats:
-    # upstream: sdcb/chats:1.9.0
-    image: sdcb/chats:1.9.0
+    # upstream: sdcb/chats:1.17.0
+    image: registry.lazycat.cloud/czyt/sdcb/chats:41fee57a7b9d9a1b
     environment:
       - DBType=sqlite
     binds:
