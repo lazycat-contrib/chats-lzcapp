@@ -1,4 +1,5 @@
 package: community.lazycat.app.sdcb-chats
+license: Apache-2.0
 version: 1.17.0
 name: "Sdcb Chats"
 description: "您的下一代 AI 聊天中枢"
