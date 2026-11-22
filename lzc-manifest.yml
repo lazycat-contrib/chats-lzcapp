@@ -8,8 +8,8 @@ application:
       backend: http://chats:8080/
 services:
   chats:
-    # upstream: sdcb/chats:1.17.0
-    image: registry.lazycat.cloud/czyt/sdcb/chats:41fee57a7b9d9a1b
+    # upstream: sdcb/chats:1.17.1
+    image: registry.lazycat.cloud/czyt/sdcb/chats:78540f7c26c0cab5
     environment:
       - DBType=sqlite
     binds:
